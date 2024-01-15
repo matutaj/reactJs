@@ -9,7 +9,7 @@ const PageRoute = () => {
         <BrowserRouter>
         <Routes>
 
-            <Route path="/" Component={Main} />
+            <Route path="/" exact Component={Main} />
             <Route path="/repository" Component={Repository} />
         </Routes>
         </BrowserRouter>
